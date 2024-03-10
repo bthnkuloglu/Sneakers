@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Collers</title>
+  </head>
+
+  <body class="sm:px-20 flex flex-col px-4 overflow-x-hidden">
+    <!-- navbar -->
+    <nav class="bg-white w-full">
+      <div class="flex flex-wrap justify-between py-6">
+        <a href="" class="flex items-center space-x-3 rtl:space-x-reserve">
+          <span
+            class="self-center text-2xl whitespace-nowrap text-amber-900 font-bold"
+            >Collers</span
+          >
+        </a>
+        <ul
+          class="hidden flex-col lg:flex place-items-center font-medium p-4 md:p-0 mt-4 border border-gray-200 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white"
+        >
+          <li
+            class="flex justify-betwenn font-medium text-amber-900 items-center"
+          >
+            <a href="#"> Products </a>
+          </li>
+          <li
+            class="flex justify-betwenn font-medium text-amber-900 items-center"
+          >
+            <a href="#"> Solutions </a>
+          </li>
+          <li
+            class="flex justify-betwenn font-medium text-amber-900 items-center"
+          >
+            <a href="#"> Pricing </a>
+          </li>
+          <li
+            class="flex justify-betwenn font-medium text-amber-900 items-center"
+          >
+            <a href="#"> Resources </a>
+          </li>
+          <li
+            class="flex justify-betwenn font-medium text-amber-900 items-center"
+          >
+            <a href="#"> Log In </a>
+          </li>
+
+          <div
+            class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
+          >
+            <button
+              type="button"
+              class="text-amber-800 border border-2 border-amber-900 rounded-md rounded-lg py-2 px-2"
+            >
+              Sign up now
+            </button>
+          </div>
+        </ul>
+
+        <img
+          src="./images/menu-scale.png"
+          class="w-6 h-6 object-cover object-center lg:hidden flex"
+          alt=""
+        />
+      </div>
+    </nav>
+    <!--main-->
+    <div
+      class="w-full flex gap-20 items-center flex-wrap sm:justify-between justify-center mt-20"
+    >
+      <div class="flex flex-col gap-8 max-w-[714px]">
+        <h1
+          class="font-[800] text-[56px] md:text-[72px] sm:text-left text-center"
+        >
+          Collectible Sneakers
+        </h1>
+        <p class="text-lg text-[#0F172A]-[18px] sm:text-left text-center">
+          Sit elit feugiat turpis sed integer integer accumsan turpis. Sed
+          suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices
+          amet.
+        </p>
+        <div class="flex sm:justify-normal justify-center">
+          <button
+            class="p-4 rounded-lg border-2 border-amber-900 font-medium text-amber-900"
+          >
+            Sign up now
+          </button>
+          <button class="flex p-4 rounded-xl text-amber-900 gap-2 items-center">
+            <img class="w-5 h-5 object-cover object-center" src="./images/watch.png" />
+            Watch More
+          </button>
+        </div>
+      </div>
+      <!--image-->
+      <div class="relative !h-[388px] w-[486px]">
+        <img
+          class="xl:h-[388px] xl:w-[486px] h-[288.21px] w-[361px]"
+          src="./images/sneak.png"
+        />
+        <div
+          class="xl:w-[367px] xl:h-[372px] w-[272.61px] h-[276.32px] bg-[#FBBF24] rounded-[50px] absolute left-[51px] top-[51px] gap-[10px] -z-10"
+        ></div>
+      </div>
+    </div>
+
+    <!--features-->
+    <div
+      class="flex md:flex-row flex-col items-center sm:justify-between justify-center py-20 gap-20"
+    >
+      <div
+        class="flex flex-col md:justify-center justify-between md:items-start items-center"
+      >
+        <img class="w-16 h-16" src="images/Group 1.png" />
+        <h4 class="text-[#0F172A]-[20px] font-[500]">Nibh viverra</h4>
+        <p class="text-[#0F172A]-[18px] font-[400]">
+          Sit bibendum donec dolor fames neque vulputate non sit aliquam.
+          Consequat turpis natoque leo, massa.
+        </p>
+      </div>
+      <div
+        class="flex flex-col md:justify-center justify-between md:items-start items-center"
+      >
+        <img class="w-22 h-22" src="images/Group 2.png" />
+        <h4 class="text-[#0F172A]-[20px] font-[500]">Cursus amet</h4>
+        <p class="text-[#0F172A]-[18px] font-[400]">
+          Sit bibendum donec dolor fames neque vulputate non sit aliquam.
+          Consequat turpis natoque leo, massa.
+        </p>
+      </div>
+      <div
+        class="flex flex-col md:justify-center justify-between md:items-start items-center"
+      >
+        <img class="w-22 h-22" src="images/Group 3.png" />
+        <h4
+          class="text-[#0F172A]-[20px] font-[500] md:justify-center justify-between md:items-center items-start"
+        >
+          Ipsum fermentum
+        </h4>
+        <p class="text-[#0F172A]-[18px] font-[400] md:gap-[10px]">
+          Sit bibendum donec dolor fames neque vulputate non sit aliquam.
+          Consequat turpis natoque leo, massa.
+        </p>
+      </div>
+    </div>
+
+    <div class="min-[1425px]:h-[776px] relative h-[1739px] w-full">
+      <!-- boxes -->
+
+      <div
+        class="absolute bottom-[120px] min-[1425px]:bottom-[60px] w-full flex z-30 min-[1425px]:flex-row flex-col min-[1425px]:gap-12 max-h-[1425px] gap-8 items-center min-[1425px]:justify-between justify-center"
+      >
+        <div class="md:w-[394px] relative w-[361px] h-[472px]">
+          <div
+            class="absolute min-[1425px]:left-[-35px] min-[1425px]:bottom-[-25px] left-[20px] bottom-[-33px] bg-[#941d54] rounded-[50px] w-[271px] h-[271px]"
+          ></div>
+        </div>
+
+        <div class="md:w-[394px] relative w-[361px] h-[472px]">
+          <div
+            class="absolute min-[1425px]:left-[-20px] min-[1425px]:top-[-31px] right-[-16px] top-[139px] bg-[#065483] rounded-[50px] w-[161px] h-[161px]"
+          ></div>
+          <div
+            class="hidden min-[1425px]:flex absolute right-[-13px] bottom-[48px] bg-[#955426] rounded-[50px] w-[130px] h-[130px]"
+          ></div>
+        </div>
+
+        <div class="md:w-[394px] relative w-[361px] h-[472px]">
+          <div
+            class="absolute min-[1425px]:left-[96px] left-[-32px] top-[53px] min-[1425px]:top-[294px] bg-[#8d379c] rounded-[50px] w-[202px] h-[202px]"
+          ></div>
+          <div
+            class="absolute hidden min-[1425px]:flex right-[-43px] top-[33px] bg-[#146739] rounded-[50px] w-[202px] h-[202px]"
+          ></div>
+        </div>
+      </div>
+
+      <!-- background -->
+      <div
+        class="h-full absolute top-0 left-[-32px] sm:left-[-80px] sm:w-[calc(100%+160px)] w-[calc(100%+64px)] z-10 bg-[#0f172a]"
+      ></div>
+
+      <!-- title & button -->
+      <div
+        class="min-[1425px]:px-20 z-30 p-4 absolute left-[-32px] sm:left-[-80px] sm:w-[calc(100%+160px)] w-[calc(100%+32px)] flex flex-col gap-8 min-[1425px]:gap-20"
+      >
+        <div
+          class="flex flex-wrap justify-between max-[1425px]:flex-col flex-row justify-center items-center gap-8"
+        >
+          <h2
+            class="text-white text-[56px] max-[1425px]:text-[32px] max-[1425px]:font-[800] font-bold"
+          >
+            The best of the best
+          </h2>
+
+          <button
+            class="px-12 text-2xl font-bold py-4 rounded-lg text-white border-white border-2"
+          >
+            Sign up now
+          </button>
+        </div>
+
+        <!-- cards -->
+        <div
+          class="flex w-screen sm:w-full min-[1425px]:flex-row flex-col min-[1425px]:gap-12 max-h-[1425px] gap-8 items-center min-[1425px]:justify-between justify-center"
+        >
+          <div
+            class="md:w-[394px] items-center flex flex-col gap-8 w-[361px] h-[472px] bg-[#0f172a] rounded-[10px] shadow-2xl shadow-white/20"
+          >
+            <img
+              src="./images/card1.jpg"
+              class="w-full h-[220px] object-cover object-center rounded-t-[10px]"
+              alt=""
+            />
+
+            <div class="flex flex-col w-full items-start px-8 gap-4">
+              <h2 class="text-2xl font-bold text-white">
+                Title
+              </h2>
+
+              <p class="text-lg text-white">
+                Egestas elit dui scelerisque ut eu purus aliquam vitae
+                habitasse.
+              </p>
+            </div>
+
+            <button
+              class="w-[calc(100%-32px)] rounded-[8px] border-2 border-white text-white py-4 justify-center flex gap-4 items-center"
+            >
+              <img src="./images/cart.png" class="w-6 h-6" />
+
+              <span class="font-medium text-xl">Buy Now</span>
+            </button>
+          </div>
+
+          <div
+            class="md:w-[394px] items-center flex flex-col gap-8 w-[361px] h-[472px] bg-[#0f172a] rounded-[10px] shadow-2xl shadow-white/20"
+          >
+            <img
+              src="./images/card2.jpg"
+              class="w-full h-[220px] object-cover object-center rounded-t-[10px]"
+              alt=""
+            />
+
+            <div class="flex flex-col w-full items-start px-8 gap-4">
+              <h2 class="text-2xl font-bold text-white">
+                Title
+              </h2>
+
+              <p class="text-lg text-white">
+                Egestas elit dui scelerisque ut eu purus aliquam vitae
+                habitasse.
+              </p>
+            </div>
+
+            <button
+              class="w-[calc(100%-32px)] rounded-[8px] border-2 border-white text-white py-4 justify-center flex gap-4 items-center"
+            >
+              <img src="./images/cart.png" class="w-6 h-6" />
+
+              <span class="font-medium text-xl">Buy Now</span>
+            </button>
+          </div>
+
+          <div
+            class="md:w-[394px] items-center flex flex-col gap-8 w-[361px] h-[472px] bg-[#0f172a] rounded-[10px] shadow-2xl shadow-white/20"
+          >
+            <img
+              src="./images/card3.jpg"
+              class="w-full h-[220px] object-cover object-center rounded-t-[10px]"
+              alt=""
+            />
+
+            <div class="flex flex-col w-full items-start px-8 gap-4">
+              <h2 class="text-2xl font-bold text-white">
+                Title
+              </h2>
+
+              <p class="text-lg text-white">
+                Egestas elit dui scelerisque ut eu purus aliquam vitae
+                habitasse.
+              </p>
+            </div>
+
+            <button
+              class="w-[calc(100%-32px)] rounded-[8px] border-2 border-white text-white py-4 justify-center flex gap-4 items-center"
+            >
+              <img src="./images/cart.png" class="w-6 h-6" />
+
+              <span class="font-medium text-xl">Buy Now</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--page 3-->
+    <div
+      class="md:py-20 py-4 items-center xl:flex-row flex flex-col md:justify-between justify-center py-40 gap-20"
+    >
+      <div class="flex flex-col">
+        <h2
+          class="md:text-[56px] text-[32px] text-black font-extrabold gap-20 py-6"
+        >
+          Why Join Us
+        </h2>
+        <div>
+          <p class="flex gap-2 text-[20px] font-normal">
+            <img class="w-6 h-6 object-cover object-center" src="./images/tic.png" />
+            Est et in pharetra magna adipiscing ornare aliquam.
+          </p>
+        </div>
+        <div>
+          <p class="flex gap-2 text-[20px] font-normal">
+            <img class="w-6 h-6 object-cover object-center" src="./images/tic.png" />
+            Est et in pharetra magna adipiscing ornare aliquam.
+          </p>
+        </div>
+        <div>
+          <p class="flex gap-2 text-[20px] font-normal">
+            <img class="w-6 h-6 object-cover object-center" src="./images/tic.png" />
+            Est et in pharetra magna adipiscing ornare aliquam.
+          </p>
+        </div>
+        <div class="flex w-full xl:justify-normal justify-center py-6">
+          <button
+            class="p-4 rounded-lg border-2 border-amber-900 font-medium text-amber-900"
+          >
+            Sign up now
+          </button>
+        </div>
+      </div>
+
+      <div class="xl:w-[713px] w-full relative xl:h-[713px] h-[386px]">
+        <img
+          class="w-full xl:h-[625.24px] object-cover xl:translate-y-0 -translate-y-36 -z-10 object-center w-full absolute top-0 left-0"
+          src="./images/img.png"
+        />
+      </div>
+    </div>
+
+    <!-- Because They Love Us -->
+
+    <div class="py-20 relative sm:h-[732px] flex flex-col gap-10">
+      <div
+        class="flex flex-wrap items-center sm:justify-between justify-center gap-4"
+      >
+        <h1 class="sm:text-[56px] sm:font-[800] font-bold text-[32px]">
+          Because they love us
+        </h1>
+
+        <div class="gap-6 items-center sm:flex hidden">
+          <img
+            src="./images/Button.png"
+            onclick="scrollThisToLeft()"
+            class="cursor-pointer"
+            alt=""
+          />
+          <img
+            src="./images/Button-1.png"
+            onclick="scrollRight()"
+            class="cursor-pointer"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="w-full bg-[#FDE68A] sm:h-[237px] h-[470px]"></div>
+
+      <div
+        id="carousel"
+        class="absolute scroll-smooth sm:bottom-[80px] bottom-[48px] sm:w-[calc(100%+160px)] h-[430px]  sm:overflow-x-hidden overflow-y-hidden w-[calc(100%+64px)] left-[-32px] sm:left-[-80px]"
+      >
+        <div class="w-[4080px] sm:w-[4139px] flex gap-6">
+          <div
+            class="bg-white flex flex-col gap-4 rounded-[20px] shadow w-[384px] h-[430px] p-8"
+          >
+            <div class="py-[19px] flex gap-2">
+              <img src="./images/shells.png" alt="" />
+
+              <span class="text-2xl font-bold text-[#475569]">SHELLS</span>
+            </div>
+
+            <div class="text-2xl">
+              Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+              enim. Sit purus venenatis velit semper lectus sed ornare quam
+              nulla.
+            </div>
+
+            <div class="pt-4 flex gap-4">
+              <img src="./images/helen.png" alt="" />
+
+              <div class="flex flex-col">
+                <div class="text-[18px]">Hellen Jummy</div>
+                <div class="text-base text-[#475569]">Team Lead</div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white flex flex-col gap-4 rounded-[20px] shadow w-[384px] h-[430px] p-8"
+          >
+            <div class="py-[19px] flex gap-2">
+              <img src="./images/shells.png" alt="" />
+
+              <span class="text-2xl font-bold text-[#475569]">SHELLS</span>
+            </div>
+
+            <div class="text-2xl">
+              Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+              enim. Sit purus venenatis velit semper lectus sed ornare quam
+              nulla.
+            </div>
+
+            <div class="pt-4 flex gap-4">
+              <img src="./images/helen.png" alt="" />
+
+              <div class="flex flex-col">
+                <div class="text-[18px]">Hellen Jummy</div>
+                <div class="text-base text-[#475569]">Team Lead</div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white flex flex-col gap-4 rounded-[20px] shadow w-[384px] h-[430px] p-8"
+          >
+            <div class="py-[19px] flex gap-2">
+              <img src="./images/shells.png" alt="" />
+
+              <span class="text-2xl font-bold text-[#475569]">SHELLS</span>
+            </div>
+
+            <div class="text-2xl">
+              Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+              enim. Sit purus venenatis velit semper lectus sed ornare quam
+              nulla.
+            </div>
+
+            <div class="pt-4 flex gap-4">
+              <img src="./images/helen.png" alt="" />
+
+              <div class="flex flex-col">
+                <div class="text-[18px]">Hellen Jummy</div>
+                <div class="text-base text-[#475569]">Team Lead</div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white flex flex-col gap-4 rounded-[20px] shadow w-[384px] h-[430px] p-8"
+          >
+            <div class="py-[19px] flex gap-2">
+              <img src="./images/shells.png" alt="" />
+
+              <span class="text-2xl font-bold text-[#475569]">SHELLS</span>
+            </div>
+
+            <div class="text-2xl">
+              Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+              enim. Sit purus venenatis velit semper lectus sed ornare quam
+              nulla.
+            </div>
+
+            <div class="pt-4 flex gap-4">
+              <img src="./images/helen.png" alt="" />
+
+              <div class="flex flex-col">
+                <div class="text-[18px]">Hellen Jummy</div>
+                <div class="text-base text-[#475569]">Team Lead</div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white flex flex-col gap-4 rounded-[20px] shadow w-[384px] h-[430px] p-8"
+          >
+            <div class="py-[19px] flex gap-2">
+              <img src="./images/shells.png" alt="" />
+
+              <span class="text-2xl font-bold text-[#475569]">SHELLS</span>
+            </div>
+
+            <div class="text-2xl">
+              Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+              enim. Sit purus venenatis velit semper lectus sed ornare quam
+              nulla.
+            </div>
+
+            <div class="pt-4 flex gap-4">
+              <img src="./images/helen.png" alt="" />
+
+              <div class="flex flex-col">
+                <div class="text-[18px]">Hellen Jummy</div>
+                <div class="text-base text-[#475569]">Team Lead</div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white flex flex-col gap-4 rounded-[20px] shadow w-[384px] h-[430px] p-8"
+          >
+            <div class="py-[19px] flex gap-2">
+              <img src="./images/shells.png" alt="" />
+
+              <span class="text-2xl font-bold text-[#475569]">SHELLS</span>
+            </div>
+
+            <div class="text-2xl">
+              Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+              enim. Sit purus venenatis velit semper lectus sed ornare quam
+              nulla.
+            </div>
+
+            <div class="pt-4 flex gap-4">
+              <img src="./images/helen.png" alt="" />
+
+              <div class="flex flex-col">
+                <div class="text-[18px]">Hellen Jummy</div>
+                <div class="text-base text-[#475569]">Team Lead</div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white flex flex-col gap-4 rounded-[20px] shadow w-[384px] h-[430px] p-8"
+          >
+            <div class="py-[19px] flex gap-2">
+              <img src="./images/shells.png" alt="" />
+
+              <span class="text-2xl font-bold text-[#475569]">SHELLS</span>
+            </div>
+
+            <div class="text-2xl">
+              Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+              enim. Sit purus venenatis velit semper lectus sed ornare quam
+              nulla.
+            </div>
+
+            <div class="pt-4 flex gap-4">
+              <img src="./images/helen.png" alt="" />
+
+              <div class="flex flex-col">
+                <div class="text-[18px]">Hellen Jummy</div>
+                <div class="text-base text-[#475569]">Team Lead</div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white flex flex-col gap-4 rounded-[20px] shadow w-[384px] h-[430px] p-8"
+          >
+            <div class="py-[19px] flex gap-2">
+              <img src="./images/shells.png" alt="" />
+
+              <span class="text-2xl font-bold text-[#475569]">SHELLS</span>
+            </div>
+
+            <div class="text-2xl">
+              Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+              enim. Sit purus venenatis velit semper lectus sed ornare quam
+              nulla.
+            </div>
+
+            <div class="pt-4 flex gap-4">
+              <img src="./images/helen.png" alt="" />
+
+              <div class="flex flex-col">
+                <div class="text-[18px]">Hellen Jummy</div>
+                <div class="text-base text-[#475569]">Team Lead</div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white flex flex-col gap-4 rounded-[20px] shadow w-[384px] h-[430px] p-8"
+          >
+            <div class="py-[19px] flex gap-2">
+              <img src="./images/shells.png" alt="" />
+
+              <span class="text-2xl font-bold text-[#475569]">SHELLS</span>
+            </div>
+
+            <div class="text-2xl">
+              Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+              enim. Sit purus venenatis velit semper lectus sed ornare quam
+              nulla.
+            </div>
+
+            <div class="pt-4 flex gap-4">
+              <img src="./images/helen.png" alt="" />
+
+              <div class="flex flex-col">
+                <div class="text-[18px]">Hellen Jummy</div>
+                <div class="text-base text-[#475569]">Team Lead</div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white flex flex-col gap-4 rounded-[20px] shadow w-[384px] h-[430px] p-8"
+          >
+            <div class="py-[19px] flex gap-2">
+              <img src="./images/shells.png" alt="" />
+
+              <span class="text-2xl font-bold text-[#475569]">SHELLS</span>
+            </div>
+
+            <div class="text-2xl">
+              Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+              enim. Sit purus venenatis velit semper lectus sed ornare quam
+              nulla.
+            </div>
+
+            <div class="pt-4 flex gap-4">
+              <img src="./images/helen.png" alt="" />
+
+              <div class="flex flex-col">
+                <div class="text-[18px]">Hellen Jummy</div>
+                <div class="text-base text-[#475569]">Team Lead</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Grow Your Collection-->
+
+    <div class="flex flex-col gap-8 md:py-20 py-4">
+      <h2 class="font-extrabold text-[56px] text-[#0F172A]">
+        Grow your collection
+      </h2>
+      <p class="font-normal text-[18px] text-[#0F172A]">
+        Enim neque massa porta adipiscing elit. Sem libero id faucibus nibh amet
+        dictum pellentesque sed. Eu non turpis risus odio sapien, fames sit
+        rhoncus. Nec magna sed interdum sit purus tellus. Et volutpat proin
+        neque placerat at bibendum quam tellus.
+      </p>
+    </div>
+    <div
+      class="flex xl:flex-row xl:items-start flex-col xl:gap-20 gap-8 justify-between xl:py-20 py-4"
+    >
+      <div
+        class="xl:h-[440px] h-[84px] xl:relative w-full xl:overflow-hidden overflow-x-auto"
+      >
+        <ul
+          class="text-[#0F172A] xl:absolute flex-row left-0 w-full flex xl:flex-col !w-[1282px] xl:w-auto overflow-x-auto gap-4 text-[20px] font-medium"
+        >
+          <li class="py-4 flex items-center gap-4 whitespace-nowrap">
+            <img src="./images/search.png" class="w-6 h-6" /> Bibendum tellus
+            <img src="./images/arrow-right.png" class="w-6 h-6" />
+          </li>
+
+          <li class="py-4 flex gap-4 items-center whitespace-nowrap">
+            <img src="./images/shield-check.png" class="w-6 h-6" /> Cras eget
+          </li>
+          <li class="py-4 flex gap-4 items-center whitespace-nowrap">
+            <img src="./images/rocket.png" class="w-6 h-6" /> Dolor pharetra
+          </li>
+          <li class="py-4 flex gap-4 items-center whitespace-nowrap">
+            <img src="./images/screen.png" class="w-6 h-6" /> Amet, fringilla
+          </li>
+          <li class="py-4 flex gap-4 items-center whitespace-nowrap">
+            <img src="./images/podcast.png" class="w-6 h-6" /> Amet nibh
+          </li>
+          <li class="py-4 flex gap-4 items-center whitespace-nowrap">
+            <img src="./images/settings-alt.png" class="w-6 h-6" /> Sed velit
+          </li>
+        </ul>
+      </div>
+
+      <img
+        class="w-[759px] md:h-[451px] gap-[10px]"
+        src="./images/images.png"
+      />
+    </div>
+
+    <!-- Shoes Collected Map -->
+    <div class="relative w-full h-[717px] mt-[128px]">
+      <div
+        class="flex h-[717px] flex-col absolute justify-center items-center bg-[#78350F] sm:w-[calc(100%+160px)] w-[calc(100%+64px)] left-[-32px] sm:left-[-80px] py-20 gap-20"
+      >
+        <div class="flex gap-2 flex-col items-center z-50">
+          <div class="text-white text-[48px] sm:text-[96px] font-[800]">
+            11,658,467
+          </div>
+          <div class="text-white text-[48px] sm:text-[56px] font-[800]">
+            Shoes Collected
+          </div>
+        </div>
+        <img class="w-[1049px] absolute z-10" src="./images/chart.png" />
+      </div>
+
+      <div
+        class="-z-10 translate-y-[-90%] absolute left-0 top-0 sm:w-[calc(100%+160px)] w-[calc(100%+64px)] left-[-32px] sm:left-[-80px] h-[372px]"
+      >
+        <img
+          src="./images/Waves.png"
+          class="w-full h-[372px] absolute left-0"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <!--footer-->
+    <div class="sm:h-[500px] h-[1600px] w-full relative">
+      <div
+        class="flex absolute sm:left-[-80px] left-[-32px] sm:w-[calc(100%+160px)] w-[calc(100%+64px)] flex-col p-20 bg-[#0F172A] flex-col items-center sm:grid sm:grid-cols-4"
+      >
+        <div class="flex flex-col text-white gap-12 py-12">
+          <ul class="flex flex-col py-3 gap-6">
+            <li class="font-medium text-white text-[16px]">Product</li>
+            <li class="text-white text-[16px]">Pricing</li>
+            <li class="text-white text-[16px]">Overview</li>
+            <li class="text-white text-[16px]">Browse</li>
+            <li class="text-white text-[16px]">Accessibility</li>
+            <li class="text-white text-[16px]">Five</li>
+          </ul>
+        </div>
+        <div class="flex flex-col text-white gap-12 py-12">
+          <ul class="flex flex-col py-3 gap-6">
+            <li class="font-medium text-white text-[16px]">Solutions</li>
+            <li class="text-white text-[16px]">Brainstorming</li>
+            <li class="text-white text-[16px]">Ideation</li>
+            <li class="text-white text-[16px]">Wireframing</li>
+            <li class="text-white text-[16px]">Research</li>
+            <li class="text-white text-[16px]">Design</li>
+          </ul>
+        </div>
+        <div class="flex flex-col text-white gap-12 py-12">
+          <ul class="flex flex-col py-3 gap-6">
+            <li class="font-medium text-white text-[16px]">Support</li>
+            <li class="text-white text-[16px]">Contact Us</li>
+            <li class="text-white text-[16px]">Developers</li>
+            <li class="text-white text-[16px]">Documentation</li>
+            <li class="text-white text-[16px]">Integrations</li>
+            <li class="text-white text-[16px]">Reports</li>
+          </ul>
+        </div>
+        <div class="flex flex-col text-white gap-12 py-12">
+          <ul class="flex flex-col py-3 gap-[11px]">
+            <li class="font-medium text-white py-3 text-[16px] gap-2">
+              Get the App
+            </li>
+            <li><img src="./images/App Store - Filled.png" /></li>
+            <li><img src="./images/Google Play.png" /></li>
+            <li class="font-medium pt-12 pb-[9px] text-white text-[16px] gap-2">
+              Follow Us
+            </li>
+            <ul class="flex gap-4">
+              <li><img class="w-6 h-6" src="./images/youtube.png" /></li>
+              <li><img class="w-6 h-6" src="./images/facebook.png" /></li>
+              <li><img class="w-6 h-6" src="./images/twitter.png" /></li>
+              <li><img class="w-6 h-6" src="./images/instagram.png" /></li>
+              <li><img class="w-6 h-6" src="./images/linkedin.png" /></li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full bg-[#334155] z-50 sm:hidden flex h-[1px]"></div>
+
+    <div class="relative sm:h-[96px] h-[100px]">
+      <div
+        class="flex flex-col h-[96px] absolute sm:left-[-80px] left-[-32px] sm:w-[calc(100%+160px)] w-[calc(100%+64px)] items-start gap-4 bg-[#0F172A] px-20 py-6"
+      >
+        <div class="w-full bg-[#334155] sm:flexhidden h-[1px]"></div>
+
+        <div
+          class="flex w-full sm:flex-row flex-col items-center justify-between gap-4"
+        >
+          <p class="text-white text-[16px]">
+            Collers © 2023. All rights reserved.
+          </p>
+
+          <ul class="flex items-center justify-center gap-8">
+            <li class="text-white text-[16px]">Terms</li>
+            <li class="text-white text-[16px]">Privacy</li>
+            <li class="text-white text-[16px]">Contact</li>
+            <li class="text-white text-[16px] flex items-center gap-2">
+              <img class="w-6 h-6" src="./images/world.png" /> EN
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const carousel = document.getElementById("carousel");
+
+      function scrollRight() {
+        const scrollCount = carousel.scrollLeft;
+        carousel.scrollLeft = scrollCount + 430;
+        console.log(carousel.scrollLeft);
+      }
+
+      function scrollThisToLeft() {
+        const scrollCount = carousel.scrollLeft;
+        carousel.scrollLeft = scrollCount - 430;
+        console.log(carousel.scrollLeft);
+      }
+    </script>
+  </body>
+</html>
